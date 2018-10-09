@@ -1,0 +1,1 @@
+# veriumMinerFire3Optimise
