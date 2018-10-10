@@ -1,10 +1,4 @@
 #!/bin/bash
-
-if [ "$OS" = "Windows_NT" ]; then
-    ./mingw64.sh
-    exit 0
-fi
-
 # Linux build
 
 make clean || echo clean
