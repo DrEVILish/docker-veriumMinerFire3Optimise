@@ -11,6 +11,7 @@ RUN         git clone https://github.com/rollmeister/veriumMiner /verium
 COPY        build.sh /verium/build.sh
 
 RUN         cd /verium && \
+            chmod +x ./build.sh
             ./build.sh
 
 WORKDIR     /verium
